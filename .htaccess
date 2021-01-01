@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^./ index.php [NC,L]
+RewriteRule ^SignValid signup.html [NC,L]
+RewriteRule ^SignIn login.php [NC,L]
+RewriteRule ^Dashboard dashboard.php [NC,L]
+RewriteRule ^EditProfile settings.html [NC,L]
+RewriteRule ^Upload upload.html [NC,L]
+
